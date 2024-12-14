@@ -1,0 +1,75 @@
+.Block {
+    max-width: 300px;
+    margin: 50px 700px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.Block h5 {
+    font-size: 2rem;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 0 20px 0;
+    text-align: right;
+    height: 50px;
+    overflow: hidden;
+    line-height: 50px;
+}
+
+/* Button styles */
+.Block button {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    font-size: 1.5rem;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+  
+  /* Button hover effect */
+.Block button:hover {
+    background-color: #f0c040;
+    color: #fff;
+    transform: scale(1.1);
+}
+  
+  /* Active button effect */
+  .Block button:active {
+    background-color: #333;
+    color: #f0f0f0;
+    transform: scale(1);
+}
+  
+  /* Special styles for operator buttons */
+  .Block button:nth-child(n) {
+    background-color: #f0a840;
+    color: #fff;
+    border: none;
+}
+  
+.Block button:nth-child(4n):hover {
+
+    background-color: #e68a20;
+}
+  
+  /* Clear button styling */
+.Block button:last-of-type {
+
+    background-color: #d9534f;
+    color: #fff;
+    width: calc(100% - 20px);
+}
+  
+.Block button:last-of-type:hover {
+    background-color: #c9302c;
+}
